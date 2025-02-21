@@ -1,0 +1,111 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	font-family: "Roboto Mono", serif;
+}
+.navigation {
+	background-color: rgb(26, 26, 26);
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	height: 50px;
+}
+
+.navigation a {
+	text-decoration: none;
+	color: aliceblue;
+}
+
+.navLogo {
+	color: aliceblue;
+	display: flex;
+	gap: 5px;
+}
+
+.container {
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+	height: 60vh;
+	background-color: rgb(0, 0, 0);
+}
+
+.homeInfo {
+	width: 40%;
+	color: aliceblue;
+}
+
+.name {
+	color: rgb(255, 187, 0);
+}
+
+.profilePhoto {
+	height: 350px;
+}
+
+.profilePhoto img {
+	height: 100%;
+	border-radius: 40px;
+}
+
+.buttonHeader {
+	color: rgb(0, 0, 0);
+	background-color: rgb(231, 192, 63);
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	margin-top: 20px;
+}
+
+.containerCaseStudies {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-top: 20px;
+}
+
+.caseStudies {
+	text-align: center;
+	width: 70%;
+}
+
+.caseStudies p {
+	color: rgb(119, 119, 120);
+	margin-top: 10px;
+}
+
+.workBox {
+	display: flex;
+	height: 350px;
+	width: 100vw;
+	justify-content: space-around;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.firstWorkBox {
+	width: 400px;
+}
+
+.imageWorkBox {
+	width: 350px;
+}
+
+.imageWorkBox img {
+	width: 100%;
+}
+
+.textBox p {
+	color: rgb(119, 119, 120);
+	margin: 15px 0px;
+}
+
+.buttonCaseStudies {
+	background-color: rgb(58, 118, 246);
+	border: none;
+	padding: 10px;
+	border-radius: 5px;
+	color: aliceblue;
+}
