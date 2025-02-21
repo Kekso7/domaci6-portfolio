@@ -109,3 +109,17 @@
 	border-radius: 5px;
 	color: aliceblue;
 }
+.testimonials {
+	background-color: black;
+	color: aliceblue;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	height: 20vh;
+	gap: 20px;
+}
+
+.testimonials p {
+	width: 80%;
+}
