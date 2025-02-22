@@ -130,22 +130,27 @@
 
 .testimonialsFourBoxes {
 	display: flex;
-	justify-content: center;
+	justify-content: space-around;
 }
 
 .testimonialFirstBox {
-	width: 500px;
+	width: 400px;
 	color: rgb(180, 180, 180);
 	margin-top: 20px;
+	border: 1px solid rgb(200, 200, 200);
+	border-radius: 5px;
+	padding: 5px;
 }
 .testimonialImageAndName {
 	display: flex;
 	gap: 20px;
 	width: 50px;
+	margin-top: 20px;
 }
 .testimonialImageAndName img {
 	width: 100%;
 }
+
 .clientName {
 	color: aliceblue;
 }
